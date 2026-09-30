@@ -1,0 +1,17 @@
+date,dst_type,raw_hour_groups,affected_local_hour,timezones,action,normalized_positions
+2018-03-11,spring_forward,23,2,EDT|EST,interpolated_missing_hour_from_adjacent_hourly_means,24
+2018-11-04,fall_back,25,1,EDT|EST,averaged_repeated_EDT_and_EST_hourly_means,24
+2019-03-10,spring_forward,23,2,EDT|EST,interpolated_missing_hour_from_adjacent_hourly_means,24
+2019-11-03,fall_back,25,1,EDT|EST,averaged_repeated_EDT_and_EST_hourly_means,24
+2020-03-08,spring_forward,23,2,EDT|EST,interpolated_missing_hour_from_adjacent_hourly_means,24
+2020-11-01,fall_back,25,1,EDT|EST,averaged_repeated_EDT_and_EST_hourly_means,24
+2021-03-14,spring_forward,23,2,EDT|EST,interpolated_missing_hour_from_adjacent_hourly_means,24
+2021-11-07,fall_back,25,1,EDT|EST,averaged_repeated_EDT_and_EST_hourly_means,24
+2022-03-13,spring_forward,23,2,EDT|EST,interpolated_missing_hour_from_adjacent_hourly_means,24
+2022-11-06,fall_back,25,1,EDT|EST,averaged_repeated_EDT_and_EST_hourly_means,24
+2023-03-12,spring_forward,23,2,EDT|EST,interpolated_missing_hour_from_adjacent_hourly_means,24
+2023-11-05,fall_back,25,1,EDT|EST,averaged_repeated_EDT_and_EST_hourly_means,24
+2024-03-10,spring_forward,23,2,EDT|EST,interpolated_missing_hour_from_adjacent_hourly_means,24
+2024-11-03,fall_back,25,1,EDT|EST,averaged_repeated_EDT_and_EST_hourly_means,24
+2025-03-09,spring_forward,23,2,EDT|EST,interpolated_missing_hour_from_adjacent_hourly_means,24
+2025-11-02,fall_back,25,1,EDT|EST,averaged_repeated_EDT_and_EST_hourly_means,24

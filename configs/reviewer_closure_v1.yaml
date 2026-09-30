@@ -1,0 +1,31 @@
+pipeline_version: ISO_NE_REVISION_V1.1_CLOSURE
+base_pipeline_version: ISO_NE_REVISION_V1.0
+random_seed: 20260917
+hardware:
+  cpu_workers: 18
+coverage_bootstrap:
+  replicates: 5000
+  block_lengths_days: [3, 7, 14, 28]
+  primary_block_days: 7
+  confidence_level: 0.95
+  nominal_coverage: 0.90
+band_robustness:
+  alpha: 0.10
+  primary_window_days: 90
+  scale_floor_mw: 50.0
+  calibration_windows_days: [30, 60, 90, 180, 270, 365]
+  scale_floors_mw: [25.0, 50.0, 100.0]
+development_sensitivity:
+  start: 2020-01-01
+  end: 2023-12-31
+  ridge_alphas: [1.0, 10.0, 100.0, 1000.0]
+  training_windows_years: [2, 3, 5, 7]
+  calibration_windows_days: [30, 60, 90, 180, 270, 365]
+  frozen_primary_alpha: 100.0
+  frozen_primary_training_years: 5
+  frozen_primary_calibration_days: 90
+peak_event_audit:
+  evaluation_start: 2025-01-01
+  evaluation_end: 2025-12-31
+  peak_threshold: historical_q95
+  cost_ratio: 10

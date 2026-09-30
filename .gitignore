@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+work/
+*.zip
+results/**/*.parquet
+!results/ISO_NE_REVISION_V1.0/A_oos_and_audit/oos_prediction_store.parquet
+!results/ISO_NE_REVISION_V1.0/B_conformal/conformal_prediction_store.parquet
+!results/ISO_NE_REVISION_V1.0/F_nyiso_external/nyiso_oos_prediction_store.parquet
+!results/ISO_NE_REVISION_V1.0/F_nyiso_external/nyiso_conformal_prediction_store.parquet
+!results/ROUND2_REVISION_V1/**/*.parquet
+data/raw_nyiso/

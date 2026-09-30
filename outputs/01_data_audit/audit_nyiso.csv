@@ -1,0 +1,31 @@
+issue_type,source_file,date_or_time,count,action,status,detail
+official_archive_gap_day,20210401pal_csv.zip,2021-04-01,1,excluded; no cross-gap interpolation,PASS,P-58B official archive gap
+official_archive_gap_day,20210401pal_csv.zip,2021-04-02,1,excluded; no cross-gap interpolation,PASS,P-58B official archive gap
+official_archive_gap_day,20210401pal_csv.zip,2021-04-03,1,excluded; no cross-gap interpolation,PASS,P-58B official archive gap
+official_archive_gap_day,20210401pal_csv.zip,2021-04-04,1,excluded; no cross-gap interpolation,PASS,P-58B official archive gap
+official_archive_gap_day,20210401pal_csv.zip,2021-04-05,1,excluded; no cross-gap interpolation,PASS,P-58B official archive gap
+official_archive_gap_day,20210401pal_csv.zip,2021-04-06,1,excluded; no cross-gap interpolation,PASS,P-58B official archive gap
+official_archive_gap_day,20210401pal_csv.zip,2021-04-07,1,excluded; no cross-gap interpolation,PASS,P-58B official archive gap
+short_missing_timestamp,20180401pal_csv.zip,2018-04-17 23:55:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20190601pal_csv.zip,2019-06-16 01:05:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20190601pal_csv.zip,2019-06-23 01:00:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20190601pal_csv.zip,2019-06-23 01:05:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20190601pal_csv.zip,2019-06-23 01:10:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20190601pal_csv.zip,2019-06-23 01:15:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20190601pal_csv.zip,2019-06-23 01:20:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20190701pal_csv.zip,2019-07-18 23:55:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20200101pal_csv.zip,2020-01-09 23:55:00 EST,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20200601pal_csv.zip,2020-06-26 23:50:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20210901pal_csv.zip,2021-09-01 23:50:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20210901pal_csv.zip,2021-09-01 23:55:00 EDT,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20230101pal_csv.zip,2023-01-05 23:55:00 EST,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20230101pal_csv.zip,2023-01-11 23:50:00 EST,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+short_missing_timestamp,20230101pal_csv.zip,2023-01-11 23:55:00 EST,11,zone_wise_linear_time_interpolation_if_gap_le_30_minutes,PASS,missing_zones=CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST; imputed_zone_cells=11
+monthly_archive_coverage,2018-01 through 2025-12,,96,asserted,PASS,Expected 96 canonical monthly archives; duplicate (1) downloads ignored
+zone_schema,all canonical archives,,11,asserted,PASS,CAPITL|CENTRL|DUNWOD|GENESE|HUD VL|LONGIL|MHK VL|MILLWD|N.Y.C.|NORTH|WEST
+raw_row_count,all canonical archives,,9408564,counted,PASS,All raw zone-level rows scanned
+irregular_non_5min_timestamp,all canonical archives,,16131,retained_in_hourly_arithmetic_mean,PASS,Observed source timestamps not exactly aligned to a 5-minute clock were retained and audited
+short_missing_timestamp_total,all canonical archives,,15,zone_wise_linear_time_interpolation,PASS,imputed_zone_cells=165; maximum permitted enclosing gap=30 minutes
+dst_normalization,all canonical archives,,16,spring interpolation; fall repeated-hour averaging,PASS,Timezone retained through EDT/EST-aware UTC key before 24-position normalization
+available_daily_profiles,processed NYISO,,2915,asserted,PASS,2922 calendar days minus seven official P-58B archive-gap days
+positions_per_available_day,processed NYISO,,24,asserted,PASS,Every available standardized daily profile has 24 positions

@@ -1,0 +1,5 @@
+dataset,method,operating_settings,lower_cost,same_cost,higher_cost
+ISO_NE,two_sided_w90,25,9,2,14
+ISO_NE,one_sided_w90,25,9,10,6
+NYISO,two_sided_w90,25,5,8,12
+NYISO,one_sided_w90,25,4,8,13

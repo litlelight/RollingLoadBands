@@ -1,0 +1,10 @@
+issue_id,issue_type,source_file,date_or_time,count,action,status,detail
+ISO-ARCHIVE-my_reports,archive_integrity,my_reports.zip,,0,none,PASS,sha256=479543de098ac78c89b36d5ee57ab3e6c5f5fa644eb657fdfbb6d80be133c9aa
+ISO-MALFORMED-2014-TRAILER,malformed_trailing_row,2014_eei_loads.txt,2015-01-01 part 1,1,removed_from_processed_data,PASS,Incomplete trailing key 0101151; complete matching row exists in 2015_eei_loads.txt
+ISO-ARCHIVE-my_reports (1),archive_integrity,my_reports (1).zip,,0,none,PASS,sha256=b5c51de7e71c2e6d0db16f25aba8d304400ea9c7f754a255323c75098fe34b89
+ISO-DST-2015-03-08-HE02,non_positive_dst_placeholder,2015_eei_loads.txt,2015-03-08 HE02,1,replaced_with_adjacent_position_mean,PASS,original=0; h01=12556; h03=12200; repaired=12378
+ISO-DATE-RANGE,date_range,processed ISO-NE,,8582,asserted,PASS,2003-01-01 through 2026-06-30
+ISO-CONTINUITY,date_continuity,processed ISO-NE,,0,asserted,PASS,missing=0; extra=0
+ISO-POSITIONS,positions_per_day,processed ISO-NE,,24,asserted,PASS,Every processed day has 24 positions
+ISO-NONPOSITIVE,non_positive_after_repair,processed ISO-NE,,0,asserted,PASS,No non-positive processed loads
+ISO-MALFORMED-COUNT,malformed_rows_removed,processed ISO-NE,,1,asserted,PASS,Expected exactly the confirmed 2014 trailing row

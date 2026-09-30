@@ -1,0 +1,234 @@
+feature_index,feature_name,category,source_date_rule,known_at_forecast_origin,definition,units
+1,load_lag1_h01,lagged_load_profile,d-1,True,EEI/profile position 01 from calendar day d-1,MW
+2,load_lag1_h02,lagged_load_profile,d-1,True,EEI/profile position 02 from calendar day d-1,MW
+3,load_lag1_h03,lagged_load_profile,d-1,True,EEI/profile position 03 from calendar day d-1,MW
+4,load_lag1_h04,lagged_load_profile,d-1,True,EEI/profile position 04 from calendar day d-1,MW
+5,load_lag1_h05,lagged_load_profile,d-1,True,EEI/profile position 05 from calendar day d-1,MW
+6,load_lag1_h06,lagged_load_profile,d-1,True,EEI/profile position 06 from calendar day d-1,MW
+7,load_lag1_h07,lagged_load_profile,d-1,True,EEI/profile position 07 from calendar day d-1,MW
+8,load_lag1_h08,lagged_load_profile,d-1,True,EEI/profile position 08 from calendar day d-1,MW
+9,load_lag1_h09,lagged_load_profile,d-1,True,EEI/profile position 09 from calendar day d-1,MW
+10,load_lag1_h10,lagged_load_profile,d-1,True,EEI/profile position 10 from calendar day d-1,MW
+11,load_lag1_h11,lagged_load_profile,d-1,True,EEI/profile position 11 from calendar day d-1,MW
+12,load_lag1_h12,lagged_load_profile,d-1,True,EEI/profile position 12 from calendar day d-1,MW
+13,load_lag1_h13,lagged_load_profile,d-1,True,EEI/profile position 13 from calendar day d-1,MW
+14,load_lag1_h14,lagged_load_profile,d-1,True,EEI/profile position 14 from calendar day d-1,MW
+15,load_lag1_h15,lagged_load_profile,d-1,True,EEI/profile position 15 from calendar day d-1,MW
+16,load_lag1_h16,lagged_load_profile,d-1,True,EEI/profile position 16 from calendar day d-1,MW
+17,load_lag1_h17,lagged_load_profile,d-1,True,EEI/profile position 17 from calendar day d-1,MW
+18,load_lag1_h18,lagged_load_profile,d-1,True,EEI/profile position 18 from calendar day d-1,MW
+19,load_lag1_h19,lagged_load_profile,d-1,True,EEI/profile position 19 from calendar day d-1,MW
+20,load_lag1_h20,lagged_load_profile,d-1,True,EEI/profile position 20 from calendar day d-1,MW
+21,load_lag1_h21,lagged_load_profile,d-1,True,EEI/profile position 21 from calendar day d-1,MW
+22,load_lag1_h22,lagged_load_profile,d-1,True,EEI/profile position 22 from calendar day d-1,MW
+23,load_lag1_h23,lagged_load_profile,d-1,True,EEI/profile position 23 from calendar day d-1,MW
+24,load_lag1_h24,lagged_load_profile,d-1,True,EEI/profile position 24 from calendar day d-1,MW
+25,load_lag2_h01,lagged_load_profile,d-2,True,EEI/profile position 01 from calendar day d-2,MW
+26,load_lag2_h02,lagged_load_profile,d-2,True,EEI/profile position 02 from calendar day d-2,MW
+27,load_lag2_h03,lagged_load_profile,d-2,True,EEI/profile position 03 from calendar day d-2,MW
+28,load_lag2_h04,lagged_load_profile,d-2,True,EEI/profile position 04 from calendar day d-2,MW
+29,load_lag2_h05,lagged_load_profile,d-2,True,EEI/profile position 05 from calendar day d-2,MW
+30,load_lag2_h06,lagged_load_profile,d-2,True,EEI/profile position 06 from calendar day d-2,MW
+31,load_lag2_h07,lagged_load_profile,d-2,True,EEI/profile position 07 from calendar day d-2,MW
+32,load_lag2_h08,lagged_load_profile,d-2,True,EEI/profile position 08 from calendar day d-2,MW
+33,load_lag2_h09,lagged_load_profile,d-2,True,EEI/profile position 09 from calendar day d-2,MW
+34,load_lag2_h10,lagged_load_profile,d-2,True,EEI/profile position 10 from calendar day d-2,MW
+35,load_lag2_h11,lagged_load_profile,d-2,True,EEI/profile position 11 from calendar day d-2,MW
+36,load_lag2_h12,lagged_load_profile,d-2,True,EEI/profile position 12 from calendar day d-2,MW
+37,load_lag2_h13,lagged_load_profile,d-2,True,EEI/profile position 13 from calendar day d-2,MW
+38,load_lag2_h14,lagged_load_profile,d-2,True,EEI/profile position 14 from calendar day d-2,MW
+39,load_lag2_h15,lagged_load_profile,d-2,True,EEI/profile position 15 from calendar day d-2,MW
+40,load_lag2_h16,lagged_load_profile,d-2,True,EEI/profile position 16 from calendar day d-2,MW
+41,load_lag2_h17,lagged_load_profile,d-2,True,EEI/profile position 17 from calendar day d-2,MW
+42,load_lag2_h18,lagged_load_profile,d-2,True,EEI/profile position 18 from calendar day d-2,MW
+43,load_lag2_h19,lagged_load_profile,d-2,True,EEI/profile position 19 from calendar day d-2,MW
+44,load_lag2_h20,lagged_load_profile,d-2,True,EEI/profile position 20 from calendar day d-2,MW
+45,load_lag2_h21,lagged_load_profile,d-2,True,EEI/profile position 21 from calendar day d-2,MW
+46,load_lag2_h22,lagged_load_profile,d-2,True,EEI/profile position 22 from calendar day d-2,MW
+47,load_lag2_h23,lagged_load_profile,d-2,True,EEI/profile position 23 from calendar day d-2,MW
+48,load_lag2_h24,lagged_load_profile,d-2,True,EEI/profile position 24 from calendar day d-2,MW
+49,load_lag7_h01,lagged_load_profile,d-7,True,EEI/profile position 01 from calendar day d-7,MW
+50,load_lag7_h02,lagged_load_profile,d-7,True,EEI/profile position 02 from calendar day d-7,MW
+51,load_lag7_h03,lagged_load_profile,d-7,True,EEI/profile position 03 from calendar day d-7,MW
+52,load_lag7_h04,lagged_load_profile,d-7,True,EEI/profile position 04 from calendar day d-7,MW
+53,load_lag7_h05,lagged_load_profile,d-7,True,EEI/profile position 05 from calendar day d-7,MW
+54,load_lag7_h06,lagged_load_profile,d-7,True,EEI/profile position 06 from calendar day d-7,MW
+55,load_lag7_h07,lagged_load_profile,d-7,True,EEI/profile position 07 from calendar day d-7,MW
+56,load_lag7_h08,lagged_load_profile,d-7,True,EEI/profile position 08 from calendar day d-7,MW
+57,load_lag7_h09,lagged_load_profile,d-7,True,EEI/profile position 09 from calendar day d-7,MW
+58,load_lag7_h10,lagged_load_profile,d-7,True,EEI/profile position 10 from calendar day d-7,MW
+59,load_lag7_h11,lagged_load_profile,d-7,True,EEI/profile position 11 from calendar day d-7,MW
+60,load_lag7_h12,lagged_load_profile,d-7,True,EEI/profile position 12 from calendar day d-7,MW
+61,load_lag7_h13,lagged_load_profile,d-7,True,EEI/profile position 13 from calendar day d-7,MW
+62,load_lag7_h14,lagged_load_profile,d-7,True,EEI/profile position 14 from calendar day d-7,MW
+63,load_lag7_h15,lagged_load_profile,d-7,True,EEI/profile position 15 from calendar day d-7,MW
+64,load_lag7_h16,lagged_load_profile,d-7,True,EEI/profile position 16 from calendar day d-7,MW
+65,load_lag7_h17,lagged_load_profile,d-7,True,EEI/profile position 17 from calendar day d-7,MW
+66,load_lag7_h18,lagged_load_profile,d-7,True,EEI/profile position 18 from calendar day d-7,MW
+67,load_lag7_h19,lagged_load_profile,d-7,True,EEI/profile position 19 from calendar day d-7,MW
+68,load_lag7_h20,lagged_load_profile,d-7,True,EEI/profile position 20 from calendar day d-7,MW
+69,load_lag7_h21,lagged_load_profile,d-7,True,EEI/profile position 21 from calendar day d-7,MW
+70,load_lag7_h22,lagged_load_profile,d-7,True,EEI/profile position 22 from calendar day d-7,MW
+71,load_lag7_h23,lagged_load_profile,d-7,True,EEI/profile position 23 from calendar day d-7,MW
+72,load_lag7_h24,lagged_load_profile,d-7,True,EEI/profile position 24 from calendar day d-7,MW
+73,load_lag14_h01,lagged_load_profile,d-14,True,EEI/profile position 01 from calendar day d-14,MW
+74,load_lag14_h02,lagged_load_profile,d-14,True,EEI/profile position 02 from calendar day d-14,MW
+75,load_lag14_h03,lagged_load_profile,d-14,True,EEI/profile position 03 from calendar day d-14,MW
+76,load_lag14_h04,lagged_load_profile,d-14,True,EEI/profile position 04 from calendar day d-14,MW
+77,load_lag14_h05,lagged_load_profile,d-14,True,EEI/profile position 05 from calendar day d-14,MW
+78,load_lag14_h06,lagged_load_profile,d-14,True,EEI/profile position 06 from calendar day d-14,MW
+79,load_lag14_h07,lagged_load_profile,d-14,True,EEI/profile position 07 from calendar day d-14,MW
+80,load_lag14_h08,lagged_load_profile,d-14,True,EEI/profile position 08 from calendar day d-14,MW
+81,load_lag14_h09,lagged_load_profile,d-14,True,EEI/profile position 09 from calendar day d-14,MW
+82,load_lag14_h10,lagged_load_profile,d-14,True,EEI/profile position 10 from calendar day d-14,MW
+83,load_lag14_h11,lagged_load_profile,d-14,True,EEI/profile position 11 from calendar day d-14,MW
+84,load_lag14_h12,lagged_load_profile,d-14,True,EEI/profile position 12 from calendar day d-14,MW
+85,load_lag14_h13,lagged_load_profile,d-14,True,EEI/profile position 13 from calendar day d-14,MW
+86,load_lag14_h14,lagged_load_profile,d-14,True,EEI/profile position 14 from calendar day d-14,MW
+87,load_lag14_h15,lagged_load_profile,d-14,True,EEI/profile position 15 from calendar day d-14,MW
+88,load_lag14_h16,lagged_load_profile,d-14,True,EEI/profile position 16 from calendar day d-14,MW
+89,load_lag14_h17,lagged_load_profile,d-14,True,EEI/profile position 17 from calendar day d-14,MW
+90,load_lag14_h18,lagged_load_profile,d-14,True,EEI/profile position 18 from calendar day d-14,MW
+91,load_lag14_h19,lagged_load_profile,d-14,True,EEI/profile position 19 from calendar day d-14,MW
+92,load_lag14_h20,lagged_load_profile,d-14,True,EEI/profile position 20 from calendar day d-14,MW
+93,load_lag14_h21,lagged_load_profile,d-14,True,EEI/profile position 21 from calendar day d-14,MW
+94,load_lag14_h22,lagged_load_profile,d-14,True,EEI/profile position 22 from calendar day d-14,MW
+95,load_lag14_h23,lagged_load_profile,d-14,True,EEI/profile position 23 from calendar day d-14,MW
+96,load_lag14_h24,lagged_load_profile,d-14,True,EEI/profile position 24 from calendar day d-14,MW
+97,load_lag21_h01,lagged_load_profile,d-21,True,EEI/profile position 01 from calendar day d-21,MW
+98,load_lag21_h02,lagged_load_profile,d-21,True,EEI/profile position 02 from calendar day d-21,MW
+99,load_lag21_h03,lagged_load_profile,d-21,True,EEI/profile position 03 from calendar day d-21,MW
+100,load_lag21_h04,lagged_load_profile,d-21,True,EEI/profile position 04 from calendar day d-21,MW
+101,load_lag21_h05,lagged_load_profile,d-21,True,EEI/profile position 05 from calendar day d-21,MW
+102,load_lag21_h06,lagged_load_profile,d-21,True,EEI/profile position 06 from calendar day d-21,MW
+103,load_lag21_h07,lagged_load_profile,d-21,True,EEI/profile position 07 from calendar day d-21,MW
+104,load_lag21_h08,lagged_load_profile,d-21,True,EEI/profile position 08 from calendar day d-21,MW
+105,load_lag21_h09,lagged_load_profile,d-21,True,EEI/profile position 09 from calendar day d-21,MW
+106,load_lag21_h10,lagged_load_profile,d-21,True,EEI/profile position 10 from calendar day d-21,MW
+107,load_lag21_h11,lagged_load_profile,d-21,True,EEI/profile position 11 from calendar day d-21,MW
+108,load_lag21_h12,lagged_load_profile,d-21,True,EEI/profile position 12 from calendar day d-21,MW
+109,load_lag21_h13,lagged_load_profile,d-21,True,EEI/profile position 13 from calendar day d-21,MW
+110,load_lag21_h14,lagged_load_profile,d-21,True,EEI/profile position 14 from calendar day d-21,MW
+111,load_lag21_h15,lagged_load_profile,d-21,True,EEI/profile position 15 from calendar day d-21,MW
+112,load_lag21_h16,lagged_load_profile,d-21,True,EEI/profile position 16 from calendar day d-21,MW
+113,load_lag21_h17,lagged_load_profile,d-21,True,EEI/profile position 17 from calendar day d-21,MW
+114,load_lag21_h18,lagged_load_profile,d-21,True,EEI/profile position 18 from calendar day d-21,MW
+115,load_lag21_h19,lagged_load_profile,d-21,True,EEI/profile position 19 from calendar day d-21,MW
+116,load_lag21_h20,lagged_load_profile,d-21,True,EEI/profile position 20 from calendar day d-21,MW
+117,load_lag21_h21,lagged_load_profile,d-21,True,EEI/profile position 21 from calendar day d-21,MW
+118,load_lag21_h22,lagged_load_profile,d-21,True,EEI/profile position 22 from calendar day d-21,MW
+119,load_lag21_h23,lagged_load_profile,d-21,True,EEI/profile position 23 from calendar day d-21,MW
+120,load_lag21_h24,lagged_load_profile,d-21,True,EEI/profile position 24 from calendar day d-21,MW
+121,load_lag28_h01,lagged_load_profile,d-28,True,EEI/profile position 01 from calendar day d-28,MW
+122,load_lag28_h02,lagged_load_profile,d-28,True,EEI/profile position 02 from calendar day d-28,MW
+123,load_lag28_h03,lagged_load_profile,d-28,True,EEI/profile position 03 from calendar day d-28,MW
+124,load_lag28_h04,lagged_load_profile,d-28,True,EEI/profile position 04 from calendar day d-28,MW
+125,load_lag28_h05,lagged_load_profile,d-28,True,EEI/profile position 05 from calendar day d-28,MW
+126,load_lag28_h06,lagged_load_profile,d-28,True,EEI/profile position 06 from calendar day d-28,MW
+127,load_lag28_h07,lagged_load_profile,d-28,True,EEI/profile position 07 from calendar day d-28,MW
+128,load_lag28_h08,lagged_load_profile,d-28,True,EEI/profile position 08 from calendar day d-28,MW
+129,load_lag28_h09,lagged_load_profile,d-28,True,EEI/profile position 09 from calendar day d-28,MW
+130,load_lag28_h10,lagged_load_profile,d-28,True,EEI/profile position 10 from calendar day d-28,MW
+131,load_lag28_h11,lagged_load_profile,d-28,True,EEI/profile position 11 from calendar day d-28,MW
+132,load_lag28_h12,lagged_load_profile,d-28,True,EEI/profile position 12 from calendar day d-28,MW
+133,load_lag28_h13,lagged_load_profile,d-28,True,EEI/profile position 13 from calendar day d-28,MW
+134,load_lag28_h14,lagged_load_profile,d-28,True,EEI/profile position 14 from calendar day d-28,MW
+135,load_lag28_h15,lagged_load_profile,d-28,True,EEI/profile position 15 from calendar day d-28,MW
+136,load_lag28_h16,lagged_load_profile,d-28,True,EEI/profile position 16 from calendar day d-28,MW
+137,load_lag28_h17,lagged_load_profile,d-28,True,EEI/profile position 17 from calendar day d-28,MW
+138,load_lag28_h18,lagged_load_profile,d-28,True,EEI/profile position 18 from calendar day d-28,MW
+139,load_lag28_h19,lagged_load_profile,d-28,True,EEI/profile position 19 from calendar day d-28,MW
+140,load_lag28_h20,lagged_load_profile,d-28,True,EEI/profile position 20 from calendar day d-28,MW
+141,load_lag28_h21,lagged_load_profile,d-28,True,EEI/profile position 21 from calendar day d-28,MW
+142,load_lag28_h22,lagged_load_profile,d-28,True,EEI/profile position 22 from calendar day d-28,MW
+143,load_lag28_h23,lagged_load_profile,d-28,True,EEI/profile position 23 from calendar day d-28,MW
+144,load_lag28_h24,lagged_load_profile,d-28,True,EEI/profile position 24 from calendar day d-28,MW
+145,summary_mean_lag1,lagged_daily_summary,d-1,True,Daily mean from calendar day d-1,MW
+146,summary_max_lag1,lagged_daily_summary,d-1,True,Daily max from calendar day d-1,MW
+147,summary_min_lag1,lagged_daily_summary,d-1,True,Daily min from calendar day d-1,MW
+148,summary_range_lag1,lagged_daily_summary,d-1,True,Daily range from calendar day d-1,MW
+149,summary_std_lag1,lagged_daily_summary,d-1,True,Daily std from calendar day d-1,MW
+150,summary_ramp_up_lag1,lagged_daily_summary,d-1,True,Daily ramp up from calendar day d-1,MW
+151,summary_ramp_down_lag1,lagged_daily_summary,d-1,True,Daily ramp down from calendar day d-1,MW
+152,summary_mean_lag7,lagged_daily_summary,d-7,True,Daily mean from calendar day d-7,MW
+153,summary_max_lag7,lagged_daily_summary,d-7,True,Daily max from calendar day d-7,MW
+154,summary_min_lag7,lagged_daily_summary,d-7,True,Daily min from calendar day d-7,MW
+155,summary_range_lag7,lagged_daily_summary,d-7,True,Daily range from calendar day d-7,MW
+156,summary_std_lag7,lagged_daily_summary,d-7,True,Daily std from calendar day d-7,MW
+157,summary_ramp_up_lag7,lagged_daily_summary,d-7,True,Daily ramp up from calendar day d-7,MW
+158,summary_ramp_down_lag7,lagged_daily_summary,d-7,True,Daily ramp down from calendar day d-7,MW
+159,summary_mean_lag28,lagged_daily_summary,d-28,True,Daily mean from calendar day d-28,MW
+160,summary_max_lag28,lagged_daily_summary,d-28,True,Daily max from calendar day d-28,MW
+161,summary_min_lag28,lagged_daily_summary,d-28,True,Daily min from calendar day d-28,MW
+162,summary_range_lag28,lagged_daily_summary,d-28,True,Daily range from calendar day d-28,MW
+163,summary_std_lag28,lagged_daily_summary,d-28,True,Daily std from calendar day d-28,MW
+164,summary_ramp_up_lag28,lagged_daily_summary,d-28,True,Daily ramp up from calendar day d-28,MW
+165,summary_ramp_down_lag28,lagged_daily_summary,d-28,True,Daily ramp down from calendar day d-28,MW
+166,summary_mean_rollmean7,rolling_summary_mean,d-7:d-1,True,Mean of daily mean over the preceding 7 calendar days,MW
+167,summary_max_rollmean7,rolling_summary_mean,d-7:d-1,True,Mean of daily max over the preceding 7 calendar days,MW
+168,summary_min_rollmean7,rolling_summary_mean,d-7:d-1,True,Mean of daily min over the preceding 7 calendar days,MW
+169,summary_range_rollmean7,rolling_summary_mean,d-7:d-1,True,Mean of daily range over the preceding 7 calendar days,MW
+170,summary_std_rollmean7,rolling_summary_mean,d-7:d-1,True,Mean of daily std over the preceding 7 calendar days,MW
+171,summary_ramp_up_rollmean7,rolling_summary_mean,d-7:d-1,True,Mean of daily ramp up over the preceding 7 calendar days,MW
+172,summary_ramp_down_rollmean7,rolling_summary_mean,d-7:d-1,True,Mean of daily ramp down over the preceding 7 calendar days,MW
+173,summary_mean_rollmean14,rolling_summary_mean,d-14:d-1,True,Mean of daily mean over the preceding 14 calendar days,MW
+174,summary_max_rollmean14,rolling_summary_mean,d-14:d-1,True,Mean of daily max over the preceding 14 calendar days,MW
+175,summary_min_rollmean14,rolling_summary_mean,d-14:d-1,True,Mean of daily min over the preceding 14 calendar days,MW
+176,summary_range_rollmean14,rolling_summary_mean,d-14:d-1,True,Mean of daily range over the preceding 14 calendar days,MW
+177,summary_std_rollmean14,rolling_summary_mean,d-14:d-1,True,Mean of daily std over the preceding 14 calendar days,MW
+178,summary_ramp_up_rollmean14,rolling_summary_mean,d-14:d-1,True,Mean of daily ramp up over the preceding 14 calendar days,MW
+179,summary_ramp_down_rollmean14,rolling_summary_mean,d-14:d-1,True,Mean of daily ramp down over the preceding 14 calendar days,MW
+180,summary_mean_rollmean28,rolling_summary_mean,d-28:d-1,True,Mean of daily mean over the preceding 28 calendar days,MW
+181,summary_max_rollmean28,rolling_summary_mean,d-28:d-1,True,Mean of daily max over the preceding 28 calendar days,MW
+182,summary_min_rollmean28,rolling_summary_mean,d-28:d-1,True,Mean of daily min over the preceding 28 calendar days,MW
+183,summary_range_rollmean28,rolling_summary_mean,d-28:d-1,True,Mean of daily range over the preceding 28 calendar days,MW
+184,summary_std_rollmean28,rolling_summary_mean,d-28:d-1,True,Mean of daily std over the preceding 28 calendar days,MW
+185,summary_ramp_up_rollmean28,rolling_summary_mean,d-28:d-1,True,Mean of daily ramp up over the preceding 28 calendar days,MW
+186,summary_ramp_down_rollmean28,rolling_summary_mean,d-28:d-1,True,Mean of daily ramp down over the preceding 28 calendar days,MW
+187,summary_mean_rollmean56,rolling_summary_mean,d-56:d-1,True,Mean of daily mean over the preceding 56 calendar days,MW
+188,summary_max_rollmean56,rolling_summary_mean,d-56:d-1,True,Mean of daily max over the preceding 56 calendar days,MW
+189,summary_min_rollmean56,rolling_summary_mean,d-56:d-1,True,Mean of daily min over the preceding 56 calendar days,MW
+190,summary_range_rollmean56,rolling_summary_mean,d-56:d-1,True,Mean of daily range over the preceding 56 calendar days,MW
+191,summary_std_rollmean56,rolling_summary_mean,d-56:d-1,True,Mean of daily std over the preceding 56 calendar days,MW
+192,summary_ramp_up_rollmean56,rolling_summary_mean,d-56:d-1,True,Mean of daily ramp up over the preceding 56 calendar days,MW
+193,summary_ramp_down_rollmean56,rolling_summary_mean,d-56:d-1,True,Mean of daily ramp down over the preceding 56 calendar days,MW
+194,summary_mean_rollstd7,rolling_summary_std,d-7:d-1,True,Sample standard deviation of daily mean over the preceding 7 calendar days,MW
+195,summary_max_rollstd7,rolling_summary_std,d-7:d-1,True,Sample standard deviation of daily max over the preceding 7 calendar days,MW
+196,summary_range_rollstd7,rolling_summary_std,d-7:d-1,True,Sample standard deviation of daily range over the preceding 7 calendar days,MW
+197,summary_mean_rollstd14,rolling_summary_std,d-14:d-1,True,Sample standard deviation of daily mean over the preceding 14 calendar days,MW
+198,summary_max_rollstd14,rolling_summary_std,d-14:d-1,True,Sample standard deviation of daily max over the preceding 14 calendar days,MW
+199,summary_range_rollstd14,rolling_summary_std,d-14:d-1,True,Sample standard deviation of daily range over the preceding 14 calendar days,MW
+200,summary_mean_rollstd28,rolling_summary_std,d-28:d-1,True,Sample standard deviation of daily mean over the preceding 28 calendar days,MW
+201,summary_max_rollstd28,rolling_summary_std,d-28:d-1,True,Sample standard deviation of daily max over the preceding 28 calendar days,MW
+202,summary_range_rollstd28,rolling_summary_std,d-28:d-1,True,Sample standard deviation of daily range over the preceding 28 calendar days,MW
+203,summary_mean_rollstd56,rolling_summary_std,d-56:d-1,True,Sample standard deviation of daily mean over the preceding 56 calendar days,MW
+204,summary_max_rollstd56,rolling_summary_std,d-56:d-1,True,Sample standard deviation of daily max over the preceding 56 calendar days,MW
+205,summary_range_rollstd56,rolling_summary_std,d-56:d-1,True,Sample standard deviation of daily range over the preceding 56 calendar days,MW
+206,cal_doy_sin,calendar,target d,True,Sine encoding of day of year,unitless
+207,cal_doy_cos,calendar,target d,True,Cosine encoding of day of year,unitless
+208,cal_dow_sin,calendar,target d,True,Sine encoding of day of week,unitless
+209,cal_dow_cos,calendar,target d,True,Cosine encoding of day of week,unitless
+210,cal_weekend,calendar,target d,True,Saturday or Sunday indicator,binary
+211,cal_federal_holiday,calendar,target d,True,US federal holiday or observed-holiday indicator,binary
+212,cal_day_before_holiday,calendar,target d and d+1 calendar,True,Target day immediately precedes a US federal holiday,binary
+213,cal_day_after_holiday,calendar,target d and d-1 calendar,True,Target day immediately follows a US federal holiday,binary
+214,cal_leap_year,calendar,target d,True,Leap-year indicator,binary
+215,cal_dow_0,calendar_one_hot,target d,True,One-hot day-of-week indicator where Monday=0; category 0,binary
+216,cal_dow_1,calendar_one_hot,target d,True,One-hot day-of-week indicator where Monday=0; category 1,binary
+217,cal_dow_2,calendar_one_hot,target d,True,One-hot day-of-week indicator where Monday=0; category 2,binary
+218,cal_dow_3,calendar_one_hot,target d,True,One-hot day-of-week indicator where Monday=0; category 3,binary
+219,cal_dow_4,calendar_one_hot,target d,True,One-hot day-of-week indicator where Monday=0; category 4,binary
+220,cal_dow_5,calendar_one_hot,target d,True,One-hot day-of-week indicator where Monday=0; category 5,binary
+221,cal_dow_6,calendar_one_hot,target d,True,One-hot day-of-week indicator where Monday=0; category 6,binary
+222,cal_month_01,calendar_one_hot,target d,True,One-hot month indicator for month 01,binary
+223,cal_month_02,calendar_one_hot,target d,True,One-hot month indicator for month 02,binary
+224,cal_month_03,calendar_one_hot,target d,True,One-hot month indicator for month 03,binary
+225,cal_month_04,calendar_one_hot,target d,True,One-hot month indicator for month 04,binary
+226,cal_month_05,calendar_one_hot,target d,True,One-hot month indicator for month 05,binary
+227,cal_month_06,calendar_one_hot,target d,True,One-hot month indicator for month 06,binary
+228,cal_month_07,calendar_one_hot,target d,True,One-hot month indicator for month 07,binary
+229,cal_month_08,calendar_one_hot,target d,True,One-hot month indicator for month 08,binary
+230,cal_month_09,calendar_one_hot,target d,True,One-hot month indicator for month 09,binary
+231,cal_month_10,calendar_one_hot,target d,True,One-hot month indicator for month 10,binary
+232,cal_month_11,calendar_one_hot,target d,True,One-hot month indicator for month 11,binary
+233,cal_month_12,calendar_one_hot,target d,True,One-hot month indicator for month 12,binary

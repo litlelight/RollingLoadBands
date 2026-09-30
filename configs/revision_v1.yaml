@@ -1,0 +1,100 @@
+pipeline_version: ISO_NE_REVISION_V1.0
+random_seed: 20260917
+hardware:
+  cpu_workers: 18
+  bootstrap_workers: 4
+  use_gpu: true
+freeze:
+  feature_count: 233
+  summary_lags: [1, 7, 28]
+  iso_features_sha256: c51043ac94cc22dad71c6d0ad823b3c84c471c16cea6f021ff993eb14df4c8ef
+  iso_daily_sha256: 74b817e231a0cc9e9e6dc195cac8e43d0b9b7f6f523000c215b1f2520f554152
+  feature_manifest_sha256: 3161ee8be150a4648ed2c0d86ee7d6b732c1c5a7add550ffe0be775655d4d0b6
+ridge:
+  alpha: 100.0
+  training_years: 5
+  update_frequency: month_start
+  oos_start: 2019-01-01
+  oos_end: 2026-06-30
+conformal:
+  alpha: 0.10
+  primary_window_days: 90
+  bonferroni_window_days: 365
+  disjoint_scale_days: 90
+  disjoint_score_days: 90
+  scale_floor_mw: 50.0
+decision:
+  validation_start: 2024-01-01
+  validation_end: 2024-12-31
+  evaluation_start: 2025-01-01
+  evaluation_end: 2025-12-31
+  peak_percentiles: [90.0, 95.0, 97.5, 99.0]
+  include_rolling_365d_95: true
+  cost_ratios: [1, 2, 5, 10, 20]
+  lambda_grid: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+  delta_start_mw: -2000
+  delta_end_mw: 4000
+  delta_step_mw: 50
+  tie_breaking: minimum_cost_then_fewer_misses_then_fewer_false_alarms_then_smaller_parameter
+bootstrap:
+  replicates: 5000
+  block_lengths_days: [3, 7, 14, 28]
+  primary_block_days: 7
+  confidence_level: 0.95
+xgboost:
+  device: cuda
+  monthly_development_start: 2020-01-01
+  monthly_development_end: 2023-12-31
+  final_prediction_start: 2024-01-01
+  final_prediction_end: 2026-06-30
+  candidates:
+    - name: compact
+      n_estimators: 180
+      max_depth: 3
+      learning_rate: 0.06
+      min_child_weight: 5
+      subsample: 0.90
+      colsample_bytree: 0.85
+      reg_lambda: 15.0
+    - name: balanced
+      n_estimators: 280
+      max_depth: 4
+      learning_rate: 0.04
+      min_child_weight: 5
+      subsample: 0.90
+      colsample_bytree: 0.85
+      reg_lambda: 15.0
+    - name: deeper
+      n_estimators: 360
+      max_depth: 5
+      learning_rate: 0.03
+      min_child_weight: 3
+      subsample: 0.90
+      colsample_bytree: 0.85
+      reg_lambda: 20.0
+tcn:
+  train_start: 2019-01-01
+  train_end: 2023-12-31
+  validation_start: 2024-01-01
+  validation_end: 2024-12-31
+  evaluation_start: 2025-01-01
+  evaluation_end: 2025-12-31
+  lookback_days: 28
+  channels: 64
+  kernel_size: 3
+  dilations: [1, 2, 4]
+  dense_units: 128
+  dropout: 0.10
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  batch_size: 128
+  max_epochs: 50
+  patience: 7
+  seeds: [11, 22, 33, 42, 55]
+nyiso:
+  oos_start: 2023-01-01
+  oos_end: 2025-12-31
+  validation_start: 2024-01-01
+  validation_end: 2024-12-31
+  evaluation_start: 2025-01-01
+  evaluation_end: 2025-12-31

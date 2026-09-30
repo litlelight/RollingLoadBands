@@ -1,0 +1,8 @@
+dataset,usage,definition,cutoff_date,threshold_mw
+ISO_NE,decision_pre_validation_frozen,linear 95th percentile of all available daily peaks strictly before cutoff,2024-01-01,21931.0000000000
+ISO_NE,2024_band_diagnostic_year_specific,linear 95th percentile of all available daily peaks strictly before cutoff,2024-01-01,21931.0000000000
+ISO_NE,2025_band_diagnostic_year_specific,linear 95th percentile of all available daily peaks strictly before cutoff,2025-01-01,21901.7500000000
+ISO_NE,2026H1_band_diagnostic_year_specific,linear 95th percentile of all available daily peaks strictly before cutoff,2026-01-01,21898.0000000000
+NYISO,decision_pre_validation_frozen,linear 95th percentile of all available daily peaks strictly before cutoff,2024-01-01,27091.3863100000
+NYISO,2024_band_diagnostic_year_specific,linear 95th percentile of all available daily peaks strictly before cutoff,2024-01-01,27091.3863100000
+NYISO,2025_band_diagnostic_year_specific,linear 95th percentile of all available daily peaks strictly before cutoff,2025-01-01,27034.5801225000

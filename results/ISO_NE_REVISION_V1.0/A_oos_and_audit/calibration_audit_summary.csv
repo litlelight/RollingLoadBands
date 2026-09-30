@@ -1,0 +1,6 @@
+method,evaluation_start,evaluation_end,required_history_days,evaluated_target_days,violating_target_days,status
+standardized_max_90,2020-01-01,2026-06-30,90.0000000000,2373,0,PASS
+one_sided_max_90,2020-01-01,2026-06-30,90.0000000000,2373,0,PASS
+disjoint_standardized_max_90,2020-01-01,2026-06-30,180.0000000000,2373,0,PASS
+bonferroni_365,2020-01-01,2026-06-30,365.0000000000,2373,0,PASS
+monthly_model_and_scaler,2019-01-01,2026-06-30,,2738,0,PASS

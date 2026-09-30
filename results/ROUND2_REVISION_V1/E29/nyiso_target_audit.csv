@@ -1,0 +1,2 @@
+dataset,test_days,peak_events,irregular_days,irregular_peak_days,irregular_unique_timestamps,interpolated_days,interpolated_peak_days,dst_adjusted_days,dst_adjusted_peak_days,raw_archives
+NYISO,365,17,317,17,2280,0,0,2,0,20250101pal_csv.zip|20250201pal_csv.zip|20250301pal_csv.zip|20250401pal_csv.zip|20250501pal_csv.zip|20250601pal_csv.zip|20250701pal_csv.zip|20250801pal_csv.zip|20250901pal_csv.zip|20251001pal_csv.zip|20251101pal_csv.zip|20251201pal_csv.zip

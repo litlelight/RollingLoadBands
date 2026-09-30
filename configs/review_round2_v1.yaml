@@ -1,0 +1,22 @@
+pipeline_version: ROUND2_REVISION_V1
+base_pipeline_version: ISO_NE_REVISION_V1.0
+closure_pipeline_version: ISO_NE_REVISION_V1.1_CLOSURE
+random_seed: 20260917
+alpha: 0.10
+scale_floor_mw: 50.0
+calibration_windows_days: [30, 60, 90, 180, 270, 365]
+aci_step_sizes: [0.0, 0.002, 0.005, 0.01, 0.02, 0.05]
+peak_calibration_windows_days: [90, 365]
+validation_start: 2024-01-01
+validation_end: 2024-12-31
+evaluation_start: 2025-01-01
+evaluation_end: 2025-12-31
+peak_percentiles: [90.0, 95.0, 97.5, 99.0]
+include_rolling_365d_95: true
+cost_ratios: [1, 2, 5, 10, 20]
+lambda_grid: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+delta_start_mw: -2000
+delta_end_mw: 4000
+delta_step_mw: 50
+bootstrap_replicates: 5000
+bootstrap_blocks_days: [3, 7, 14, 28]

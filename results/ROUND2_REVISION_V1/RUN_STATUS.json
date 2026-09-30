@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "version": "ROUND2_REVISION_V1",
+  "runtime_seconds": 22.55210699996678,
+  "report": "reports/ROUND2_REVISION_V1/ROUND2_EXPERIMENT_REPORT.md",
+  "output_hashes": {
+    "E24/baseline_gates.csv": "0733aa81544166bb16ee31c0d4ca4b15750d7ef006dd622fcc17465c07c919df",
+    "E24/daily_trace_gate.csv": "4197c1cd8113af05869010fdf2d61ece09b42b974f3e4c6fe85ac1c1cdaf2879",
+    "E24/input_hashes.csv": "31d11dd2a58125c046bc999b4f00be0e2331c887f7d816914f54b239f3e736bf",
+    "E25/all_decision_daily.parquet": "aa6207b4c1abcc9781ce1ea657289ef02abe6672958e527d052d3f456c89f497",
+    "E25/ISO_NE/band_daily_quality.parquet": "b2854db15cfd359c02bf73e011536c50931bafc14ae9dc50013c6db11bc416ad",
+    "E25/ISO_NE/window_and_aci_bands.parquet": "49f9e94e9ca5078d44ba94a2af0cbc3ae243b21286c314cbffebca8863ee2439",
+    "E25/NYISO/band_daily_quality.parquet": "91be6f6e0b6f6ff138fb9a5bda575d979ef1852364485936ab24d7347592c72c",
+    "E25/NYISO/window_and_aci_bands.parquet": "be47e8a224d234701e3cbc0e4ec7b8b55f5ca27b81fca3366718b2355695c38e",
+    "E25/primary_decision_daily.parquet": "8cca65421a9f853ddc44b29da15b0706427d3c579349201525d832d85fa39e6b",
+    "E25/primary_window_matrix_pattern.csv": "c046b67357a524fae01e44c6baf053d7d8e7eb867b758380d037864621d0a9c4",
+    "E25/retrospective_window_selection_2024.csv": "7984514f137067b2fa8c015821081f622b121eca26e36122303c2f3f105e5a2e",
+    "E25/window_decision_matrix.csv": "f48e2d5ae43ecdb77091686231d6a254f63842e6d0971bb9f8fc3119344069f8",
+    "E26/ISO_NE/direct_peak_daily.parquet": "e88f71c21c8641a815840a15f7507603dee02db27caadef2a343e0989785b83b",
+    "E26/NYISO/direct_peak_daily.parquet": "d1d109c45a195dd276f37f28c736f9f60646be8ec70641b260045e7cffa91a26",
+    "E26/quality_metrics.csv": "b79d96fb9a6b60b95d98aa2924c0653472d29241f7e7b4f976c1160c8c27ffd9",
+    "E28/daily_error_dependence.csv": "6b3b6ae6522f539e1056d897bc72d5c3f704bbd0193422779d1cdb63c5aeeb46",
+    "E28/event_episode_loo.csv": "7056382099bc5fc1551030e98c1182c4ee1b9993032764050050dfd3061e611b",
+    "E28/monthly_diagnostics.csv": "4c61001f5bea616503425bbab93b743b034137b878145984b9e1554acb9399ef",
+    "E28/resampling_sensitivity.csv": "e43682c92ce996fe7bd3f47b4d4cec28472029b674499d755cad57d648c89f2f",
+    "E28/seasonal_daily.parquet": "7a4a574ee037bba65cd8fbc64165b24bfc4217db6e9b9c319fe0a16d42b5a520",
+    "E29/nyiso_target_audit.csv": "2bf0ca9e39103d5b8f0bd61e47c085bbf0fff1e865a100e14594cc7dd9362ec9",
+    "E29/nyiso_target_daily.csv": "47bcd739c866e47307417a76094e9f603fe063c05fdeabe069a7decd769a8b4d",
+    "E29/quantile_rank_audit.csv": "83515b760b466f402d71eccf8fb2ddd673b3ea0861680596ad29b986786f27e1",
+    "E29/tie_break_audit.csv": "8a1d728e0fca8c931d54ac03bcdb551db9053bed514f2d8536202f313c54519f"
+  }
+}

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or processed dataset, please cite the accompanying manuscript."
+type: software
+title: "Reproducibility package for Rolling Empirically Calibrated Simultaneous Bands for Next-Day Load Profiles and Cost-Sensitive Peak-Risk Decision Support"
+version: "1.2.0"
+authors:
+  - family-names: Zhang
+    given-names: Yuchen
+  - family-names: Tin Tin
+    given-names: Ting
+  - family-names: Gong
+    given-names: Yuhao
+  - family-names: Geng
+    given-names: Jiaqi
