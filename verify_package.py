@@ -1,4 +1,4 @@
-"""Verify a downloaded v1.2.0 distribution without running experiments."""
+"""Verify a downloaded versioned distribution, including E30 and E31 evidence."""
 
 from __future__ import annotations
 
@@ -101,12 +101,52 @@ def main() -> int:
     else:
         failures.append("missing second-round RUN_STATUS.json")
 
+    # Third-round E30 internal output hashes and E31 E26-source linkage.
+    e30 = ROOT / "results/ROUND3_MINOR_REVISION_V1/E30"
+    e30_checks = e30 / "OUTPUT_SHA256.csv"
+    if not e30_checks.is_file():
+        failures.append("missing E30 output checksum table")
+    else:
+        with e30_checks.open(newline="", encoding="utf-8-sig") as handle:
+            rows = list(csv.DictReader(handle))
+        if len(rows) != 18:
+            failures.append(f"E30 expects 18 output hash rows, found {len(rows)}")
+        for row in rows:
+            name = row["relative_path"]
+            if Path(name).is_absolute() or ".." in Path(name).parts or "/" in name or "\\" in name:
+                failures.append(f"E30 invalid output path: {name}")
+                continue
+            target = e30 / name
+            if not target.is_file():
+                failures.append(f"E30 missing output: {name}")
+            elif (sha256(target) != row["sha256"] or target.stat().st_size != int(row["bytes"])):
+                failures.append(f"E30 output mismatch: {name}")
+
+    e31 = ROOT / "results/ROUND3_MINOR_REVISION_V1/E31"
+    e31_checks = e31 / "E31_HASHES.csv"
+    if not e31_checks.is_file():
+        failures.append("missing E31 provenance hash table")
+    else:
+        with e31_checks.open(newline="", encoding="utf-8-sig") as handle:
+            rows = list(csv.DictReader(handle))
+        if len(rows) != 2:
+            failures.append(f"E31 expects two source/result hash rows, found {len(rows)}")
+        for row in rows:
+            name = row["input"].replace("\\", "/")
+            relative = Path(name)
+            if relative.is_absolute() or ".." in relative.parts:
+                failures.append(f"E31 invalid relative path: {name}")
+                continue
+            target = (e31 / relative if len(relative.parts) == 1 else ROOT / relative)
+            if not target.is_file() or sha256(target) != row["sha256"]:
+                failures.append(f"E31 source/result mismatch: {name}")
+
     if failures:
         print("PACKAGE VERIFICATION: FAIL")
         for failure in failures:
             print(f"- {failure}")
         return 1
-    print(f"PACKAGE VERIFICATION: PASS ({len(files)} files; 9 frozen inputs and second-round outputs checked)")
+    print(f"PACKAGE VERIFICATION: PASS ({len(files)} files; 9 frozen inputs, E24--E29 outputs, E30 outputs and E31 provenance checked)")
     return 0
 
 

@@ -60,3 +60,10 @@ Those ZIP bytes are not part of this repository. E24--E28 and the stored E29
 CSV audit results can be inspected without downloading them, but a full E29
 rerun requires them. The audit uses the same equal-observation local-hour target
 definition as the manuscript; it does not construct duration-weighted energy.
+
+
+## Third-round E30/E31 evidence
+
+E30 is a retrospective NYISO raw-timestamp aggregation sensitivity; it requires **all 96** official monthly `YYYYMM01pal_csv.zip` archives covering 2018--2025 for a full rerun. Their hashes are recorded in `results/ROUND3_MINOR_REVISION_V1/E30/raw_zip_sha256.csv`, but the original operator archives themselves are **not** distributed. The alternative integrates a forward-held observation for at most 30 minutes across UTC hours, without bridging longer gaps (at most five minutes is used to close adjacent hour/dataset edges), and reuses the same local-day/DST standardization. It is not asserted to equal a physical duration-weighted meter series.
+
+E30's machine-readable hourly/day/event/forecast/band/decision outputs are distributed under `results/ROUND3_MINOR_REVISION_V1/E30/`. E31 reuses the frozen E26 `quality_metrics.csv` already in this package; it requires no raw data or model rerun to regenerate its audit table.

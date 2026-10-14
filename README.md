@@ -1,8 +1,8 @@
 # Rolling Empirically Calibrated Simultaneous Bands for Next-Day Load Profiles and Cost-Sensitive Peak-Risk Decision Support — Reproducibility Package
 
-This reproducibility package accompanies the revised manuscript. It contains the frozen processed ISO-NE and NYISO model inputs, source code, configurations, selected earlier-revision result stores required by the second-round analyses, and the complete E24--E29 reviewer analyses.
+This reproducibility package accompanies the revised manuscript. It contains the frozen processed ISO-NE and NYISO model inputs, source code, configurations, selected earlier-revision result stores required by the second-round analyses, the complete E24--E29 reviewer analyses, and the E30--E31 minor-revision aggregation/validation audits.
 
-**Package version: 1.2.0.** Any earlier v1.1.0 archival identifiers refer to the preceding revision and do not include the E24--E29 analyses. The archival DOI for version 1.2.0 should be added to the repository metadata and manuscript after the corresponding deposit is completed.
+**Package version: 1.3.0.** The previous reproducibility snapshot is [v1.2.0](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.2.0), archived under version DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483); it does not include E30--E31. Cite the Zenodo *version DOI shown on the v1.3.0 record* when using this E30--E31 release. Do not cite the v1.2.0 DOI for E30--E31.
 
 ## Contents
 
@@ -11,6 +11,9 @@ This reproducibility package accompanies the revised manuscript. It contains the
 - `results/ISO_NE_REVISION_V1.0/` and `results/ISO_NE_REVISION_V1.1_CLOSURE/`: selected preceding results, including the frozen out-of-sample prediction/band stores and 2025 decision cubes required for a direct E24--E29 rerun.
 - `results/ROUND2_REVISION_V1/`: complete E24--E29 CSV/Parquet traces, including the 365-day decision-matrix audit and NYISO target audit.
 - `reports/`: human-readable experiment reports and earlier figures.
+- `results/ROUND3_MINOR_REVISION_V1/E30/`: the complete retrospective NYISO equal-observation versus forward-hold duration-weighted aggregation audit, including source archive fingerprints, changed-hour/day checks, historical-Q95 events, refitted forecasts/bands, separately 2024-tuned decisions and original/re-estimated-threshold comparisons.
+- `results/ROUND3_MINOR_REVISION_V1/E31/`: a joined 2024 ACI step-size selection / 2025 diagnostic table derived byte-for-byte from the archived E26 inputs.
+- `experiments/e30_nyiso_duration_sensitivity.py` and `experiments/e31_aci_validation_audit.py`: E30 and E31 source modules.
 - `MANIFEST.sha256`, `verify_package.py`, and `generate_manifest.py`: byte-level distribution checks. The manifest covers all distributed files except itself.
 
 To keep the repository compact, regenerable E0--E23 auxiliary diagnostic and runtime tables are not redistributed here. This does **not** remove any E24--E29 file or change any included scientific result value. The earlier runners regenerate the omitted auxiliaries when their raw-input prerequisites are available. The frozen predecessor stores listed above are distributed so that E24--E29 can be rerun without first repeating the complete E0--E19 workflow.
@@ -23,7 +26,7 @@ From the extracted repository root:
 python verify_package.py
 ```
 
-The verifier checks every listed byte hash, rejects unlisted distributed files, confirms the nine E24 frozen-input fingerprints and the E24--E29 output hashes, and checks the curated per-file size ceiling. Do not rerun experiments before this check: runners may replace result files with regenerated outputs and thereby invalidate the distribution manifest.
+The verifier checks every listed byte hash, rejects unlisted distributed files, confirms the nine E24 frozen-input fingerprints the E24--E29 output hashes, the E30 output checksums and E31 source/output hashes, and the curated per-file size ceiling. Do not rerun experiments before this check: runners may replace result files with regenerated outputs and thereby invalidate the distribution manifest.
 
 ## Environment
 
@@ -47,6 +50,22 @@ python run_review_round2.py --config configs/review_round2_v1.yaml --nyiso-raw-d
 
 The third command requires the twelve **official** NYISO monthly archives for 2025, named `20250101pal_csv.zip` through `20251201pal_csv.zip`, for E29's timestamp audit. Put them in one external directory and pass that directory to `--nyiso-raw-dir`; alternatively use the ignored default directory `data/raw_nyiso/`. Raw operator ZIPs are not redistributed. The E24--E28 calculations use included frozen inputs and do not alter the point-model specification. The second-round runner was re-executed in a clean staged copy; all scientific result files matched the original byte-for-byte. Only E24 path metadata and `RUN_STATUS.json` changed to portable relative paths.
 
+### Third-round minor-revision audits: E30 and E31
+
+E31 can be checked directly against the included frozen `results/ROUND2_REVISION_V1/E26/quality_metrics.csv` without re-running any model:
+
+```bash
+python experiments/e31_aci_validation_audit.py
+```
+
+E30 stores complete CSV/Parquet evidence under `results/ROUND3_MINOR_REVISION_V1/E30/`. A **full** E30 rerun requires the 96 official NYISO monthly raw ZIPs for 2018--2025 and the project dependencies. From the repository root use:
+
+```bash
+python experiments/e30_nyiso_duration_sensitivity.py --downloads /path/to/official-nyiso-monthly-zips
+```
+
+The raw source ZIPs are not redistributed. This E30 alternative holds each system-load observation forward until the next timestamp for no more than 30 minutes, integrates within UTC hours and applies the same local-day/DST normalization. It is a *retrospective sensitivity convention*, not an operator-certified physical hourly energy value. It rebuilds features, monthly Ridge fits, score bands and independently tuned 2024 decisions from the alternative target. See `E30_REPORT.md` for scope: the principal 2025 Q95/r=10 NYISO cost comparison remains in the same direction, but not all threshold/cost combinations or resampling designs were rerun. The old E0--E29 outputs remain unchanged. E31 only joins frozen E26 values.
+
 For raw-input preprocessing rather than the supplied frozen inputs, follow [`DATA.md`](DATA.md) and run:
 
 ```bash
@@ -67,4 +86,4 @@ No open-source software license is granted by this package. The manuscript's pub
 
 ## Citation
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). After the version 1.2.0 archival deposit is published, add the resulting DOI to the repository metadata and use that fixed archived version in the manuscript's Data Availability statement.
+Citation metadata for the source snapshot are provided in [`CITATION.cff`](CITATION.cff). **Earlier version:** v1.2.0 is archived as DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483) and covers E0--E29 only. **This version:** for E30--E31 cite the specific v1.3.0 Zenodo version DOI displayed on its archived record and the matching GitHub release tag. The *main-branch* README and `CITATION.cff` can be updated to display that new DOI after Zenodo issues it; the immutable release tag itself must not be rewritten.
