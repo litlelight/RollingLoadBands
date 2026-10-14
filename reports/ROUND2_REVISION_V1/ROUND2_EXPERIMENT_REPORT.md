@@ -1,5 +1,7 @@
 # ROUND2_REVISION_V1 — second-round reviewer experiments
 
+> **Interpretation update (current main-branch documentation; original archived values unchanged):** Historical headings such as `95% CI` or probability-like resampling columns are superseded by the current manuscript/Supplement interpretation as *conditional descriptive 2.5th--97.5th resampling percentile ranges*, not confidence intervals for fixed observed annual costs or future-year guarantees. See [`LEGACY_INTERPRETATION_NOTICE.md`](../../LEGACY_INTERPRETATION_NOTICE.md).
+
 These are retrospective analyses of frozen historical out-of-sample forecasts. The 90-day rows retain
 the inherited reference setting. Selecting a window from 2024 is a newly specified retrospective
 exercise, not an original prespecified protocol or an untouched 2025 confirmation.

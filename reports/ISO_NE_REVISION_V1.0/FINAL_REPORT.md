@@ -1,5 +1,7 @@
 # ISO_NE_REVISION_V1.0 全套大修实验报告
 
+> **Interpretation update (current main-branch documentation; original archived values unchanged):** Historical headings such as `95% CI` or probability-like resampling columns are superseded by the current manuscript/Supplement interpretation as *conditional descriptive 2.5th--97.5th resampling percentile ranges*, not confidence intervals for fixed observed annual costs or future-year guarantees. See [`LEGACY_INTERPRETATION_NOTICE.md`](../../LEGACY_INTERPRETATION_NOTICE.md).
+
 ## 执行结论
 
 整套 E2–E19 已执行完成。ISO-NE 的 OOS 残差与时间边界硬门禁状态为 **PASS**；冻结输入的 5 项哈希/结构检查全部通过。2025 始终作为最终评估期，2024 仅用于决策参数选择；测试期没有用于超参数或阈值选择。

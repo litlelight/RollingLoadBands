@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software or processed dataset, please cite the accompanying manuscript."
+message: "Please cite version DOI 10.5281/zenodo.23368356 for E0-E31; the earlier E0-E29-only v1.2.0 version has DOI 10.5281/zenodo.23064483."
 type: software
 title: "Reproducibility package for Rolling Empirically Calibrated Simultaneous Bands for Next-Day Load Profiles and Cost-Sensitive Peak-Risk Decision Support"
 version: "1.3.0"

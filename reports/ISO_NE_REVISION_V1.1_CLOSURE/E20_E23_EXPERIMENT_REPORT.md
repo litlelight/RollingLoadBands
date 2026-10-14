@@ -1,5 +1,7 @@
 # ISO_NE_REVISION_V1.1_CLOSURE E20–E23 实验报告
 
+> **Interpretation update (current main-branch documentation; original archived values unchanged):** Historical headings such as `95% CI` or probability-like resampling columns are superseded by the current manuscript/Supplement interpretation as *conditional descriptive 2.5th--97.5th resampling percentile ranges*, not confidence intervals for fixed observed annual costs or future-year guarantees. See [`LEGACY_INTERPRETATION_NOTICE.md`](../../LEGACY_INTERPRETATION_NOTICE.md).
+
 本文件只记录新增实验结果，不包含论文改写、审稿回复或投稿材料。所有实验沿用已通过 E2/E3 门禁的 OOS forecast store。
 
 ## E20 Coverage moving-block bootstrap

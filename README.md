@@ -2,7 +2,11 @@
 
 This reproducibility package accompanies the revised manuscript. It contains the frozen processed ISO-NE and NYISO model inputs, source code, configurations, selected earlier-revision result stores required by the second-round analyses, the complete E24--E29 reviewer analyses, and the E30--E31 minor-revision aggregation/validation audits.
 
-**Package version: 1.3.0.** The previous reproducibility snapshot is [v1.2.0](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.2.0), archived under version DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483); it does not include E30--E31. For E30--E31, cite the frozen [v1.3.0 GitHub release](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.3.0), commit `5a6a57dbc91b2efeba9c370aa83c388ccc73db37`, and its **version DOI [10.5281/zenodo.23368356](https://doi.org/10.5281/zenodo.23368356)**. Do not cite the v1.2.0 DOI for E30--E31.
+**Package version: 1.3.0.** The previous reproducibility snapshot is [v1.2.0](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.2.0), archived under version DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483); it does not include E30--E31. For the E30--E31 package, cite the archived [v1.3.0 version DOI 10.5281/zenodo.23368356](https://doi.org/10.5281/zenodo.23368356) and its [fixed GitHub v1.3.0 tag](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.3.0) (commit `5a6a57dbc91b2efeba9c370aa83c388ccc73db37`). The v1.2.0 DOI does not cover E30--E31.
+
+## Important interpretation notice for historical reports
+
+Some retained E0--E29 reports and CSV field names use legacy labels such as `95% CI`, `ci_lower_pct`, `ci_upper_pct`, or probability-like labels. These historical headings are **superseded for interpretation** by the revised manuscript and Supplement: reported block-resampling endpoints are **conditional descriptive 2.5th--97.5th percentile ranges** of selected daily outcomes, not confidence intervals for a fixed realized annual total or guarantees of future-year performance. The original numbers remain unaltered for audit. See [`LEGACY_INTERPRETATION_NOTICE.md`](LEGACY_INTERPRETATION_NOTICE.md), also linked at the top of the three legacy report files. The v1.3.0 tag is an immutable snapshot; these explanatory metadata updates apply to the current `main` branch only.
 
 ## Contents
 
@@ -86,4 +90,4 @@ No open-source software license is granted by this package. The manuscript's pub
 
 ## Citation
 
-Citation metadata for the source snapshot are provided in [`CITATION.cff`](CITATION.cff). **Earlier version:** v1.2.0 is archived as DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483) and covers E0--E29 only. **This version:** v1.3.0 (E0--E31) is archived as version DOI [10.5281/zenodo.23368356](https://doi.org/10.5281/zenodo.23368356), corresponding to the [v1.3.0 GitHub tag](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.3.0) at commit `5a6a57dbc91b2efeba9c370aa83c388ccc73db37`. DOI details were added later on `main`; the already archived release tag is unchanged.
+Citation metadata for the source snapshot are provided in [`CITATION.cff`](CITATION.cff). **Earlier version:** v1.2.0 is archived as DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483) and covers E0--E29 only. **This version:** E0--E31 is archived as [v1.3.0, DOI 10.5281/zenodo.23368356](https://doi.org/10.5281/zenodo.23368356), linked to [GitHub v1.3.0](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.3.0). Current `main` documentation was updated after the DOI was issued; the earlier fixed release tag and its deposited files were not rewritten.
