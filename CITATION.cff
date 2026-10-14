@@ -3,6 +3,7 @@ message: "If you use this software or processed dataset, please cite the accompa
 type: software
 title: "Reproducibility package for Rolling Empirically Calibrated Simultaneous Bands for Next-Day Load Profiles and Cost-Sensitive Peak-Risk Decision Support"
 version: "1.3.0"
+doi: 10.5281/zenodo.23368356
 authors:
   - family-names: Zhang
     given-names: Yuchen

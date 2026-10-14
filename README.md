@@ -2,7 +2,7 @@
 
 This reproducibility package accompanies the revised manuscript. It contains the frozen processed ISO-NE and NYISO model inputs, source code, configurations, selected earlier-revision result stores required by the second-round analyses, the complete E24--E29 reviewer analyses, and the E30--E31 minor-revision aggregation/validation audits.
 
-**Package version: 1.3.0.** The previous reproducibility snapshot is [v1.2.0](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.2.0), archived under version DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483); it does not include E30--E31. Cite the Zenodo *version DOI shown on the v1.3.0 record* when using this E30--E31 release. Do not cite the v1.2.0 DOI for E30--E31.
+**Package version: 1.3.0.** The previous reproducibility snapshot is [v1.2.0](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.2.0), archived under version DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483); it does not include E30--E31. For E30--E31, cite the frozen [v1.3.0 GitHub release](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.3.0), commit `5a6a57dbc91b2efeba9c370aa83c388ccc73db37`, and its **version DOI [10.5281/zenodo.23368356](https://doi.org/10.5281/zenodo.23368356)**. Do not cite the v1.2.0 DOI for E30--E31.
 
 ## Contents
 
@@ -86,4 +86,4 @@ No open-source software license is granted by this package. The manuscript's pub
 
 ## Citation
 
-Citation metadata for the source snapshot are provided in [`CITATION.cff`](CITATION.cff). **Earlier version:** v1.2.0 is archived as DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483) and covers E0--E29 only. **This version:** for E30--E31 cite the specific v1.3.0 Zenodo version DOI displayed on its archived record and the matching GitHub release tag. The *main-branch* README and `CITATION.cff` can be updated to display that new DOI after Zenodo issues it; the immutable release tag itself must not be rewritten.
+Citation metadata for the source snapshot are provided in [`CITATION.cff`](CITATION.cff). **Earlier version:** v1.2.0 is archived as DOI [10.5281/zenodo.23064483](https://doi.org/10.5281/zenodo.23064483) and covers E0--E29 only. **This version:** v1.3.0 (E0--E31) is archived as version DOI [10.5281/zenodo.23368356](https://doi.org/10.5281/zenodo.23368356), corresponding to the [v1.3.0 GitHub tag](https://github.com/litlelight/RollingLoadBands/releases/tag/v1.3.0) at commit `5a6a57dbc91b2efeba9c370aa83c388ccc73db37`. DOI details were added later on `main`; the already archived release tag is unchanged.
